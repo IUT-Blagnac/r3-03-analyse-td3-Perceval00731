@@ -19,13 +19,10 @@ public class App {
     }
 
 
-    public void testAuRevoirEmptyParameter()
-    {
-        assertEquals("au revoir", App.auRevoir());
+    public static String auRevoir(){
+        return "au revoir";
     }
 
-    public void testAuRevoirParameter()
-    {
-        assertEquals("au revoir JMB!", App.auRevoir("au revoir JMB!"));
+    public static String auRevoir(String param){
+        return param;
     }
-}
