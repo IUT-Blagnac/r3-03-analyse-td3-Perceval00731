@@ -19,7 +19,7 @@ Description::
 Le programme doit contenir une méthode `hello()` qui retourne "Hello World!" quand on l'exécute sans paramètre. 
 
 Issue::
-- https://github.com/IUT-Blagnac/r3-03-analyse-td3-Perceval00731/issues/1
+- https://github.com/IUT-Blagnac/r3-03-analyse-td3-Perceval00731/issues/2
 
 Importance::
 Must
