@@ -18,4 +18,14 @@ public class App {
         return param;
     }
 
+
+    public void testAuRevoirEmptyParameter()
+    {
+        assertEquals("au revoir", App.auRevoir());
+    }
+
+    public void testAuRevoirParameter()
+    {
+        assertEquals("au revoir JMB!", App.auRevoir("au revoir JMB!"));
+    }
 }
