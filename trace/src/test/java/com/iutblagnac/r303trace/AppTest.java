@@ -42,4 +42,14 @@ public class AppTest
     {
         assertEquals("Hello JMB!", App.hello("Hello JMB!"));
     }
+
+    public void testAuRevoirEmptyParameter()
+    {
+        assertEquals("au revoir", App.auRevoir());
+    }
+
+    public void testAuRevoirParameter()
+    {
+        assertEquals("au revoir JMB!", App.auRevoir("au revoir JMB!"));
+    }
 }
